@@ -1,0 +1,6 @@
+CREATE TABLE inventory (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    quantity INTEGER NOT NULL,
+    warehouseId INTEGER NOT NULL
+);
